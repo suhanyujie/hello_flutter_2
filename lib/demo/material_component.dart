@@ -14,6 +14,7 @@ import 'chip_demo.dart';
 import 'datatable_demo.dart';
 import 'state_management_demo.dart';
 import 'stream/stream_demo.dart';
+import 'rxdart_demo.dart';
 
 class MaterialComponent extends StatefulWidget {
   @override
@@ -106,6 +107,10 @@ class _MaterialComponentState extends State<MaterialComponent> {
             ListItem(
               title: "StreamDemo",
               page: StreamDemo(),
+            ),
+            ListItem(
+              title: "RxDartDemoHome",
+              page: RxDartDemoHome(),
             ),
           ],
         ),
